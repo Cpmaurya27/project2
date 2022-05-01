@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fitness
+        </title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <style>
+            body{
+                background-image: url("https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg");
+                margin:0px;
+                padding:0px;
+                max-width: 100%;
+                background-size: cover;
+                
+            }
+            .left{
+                  display: inline-block;
+                  position:absolute;
+                  left:34px;
+                  top:20px;
+                  
+            }
+            .mid{
+                
+                background-color: rgba(14, 13, 13,.3);
+                display:block;
+                width:33%;
+                margin:25px auto;
+                top:30px;
+
+            }
+            .right{
+                display:inline-block;
+                position: absolute;
+                right:34px;
+                top:20px;
+            }
+            
+            .navbar{
+                display:inline-block;
+            }
+            .navbar li{
+                display:inline-block;
+                font-size: 18px;
+            }
+            .navbar li a{
+                color:cornsilk;
+                text-decoration: none;
+                padding:25px 15px;
+            }
+            .navbar li a:hover, .navbar li a.active{
+                text-decoration: underline;
+                color:aqua;
+            }
+            .left img{
+                width: 100px;
+                height:125px;
+                filter:invert(100%)
+
+            }
+            .left div{
+                text-align: center;
+                color:white;
+            }
+            .btn{
+               margin:0px 9px;
+               padding:4px 14px;
+               background-color: black;
+               color: white;
+               cursor: pointer;
+               border: 2px solid aqua;
+               border-top-left-radius: 15px;
+               border-bottom-right-radius: 15px;
+
+            }
+            .btn:hover{
+                color: blue;
+            }
+            .container{
+                border:2px solid white;
+                color:white;
+                margin:120px 60px;
+                padding: 25px;
+                width:33%;
+                border-radius: 20px;
+               
+            }
+            .form-group input{
+                text-align: center;
+                display: block;
+                width:500px;
+                padding:1px;
+                border:2px solid black;
+                margin:3px auto;
+                font-size: 20px;
+                border-radius: 10px;
+            }
+            .container h3{
+                text-align: center;
+            }
+            .other{
+                margin:120px 60px;
+                padding:30px;
+                color:white;
+               height:auto;
+               width:auto;
+                border-radius: 20px;
+            }
+            .header{
+                position: sticky;
+            }
+            .other h2{
+                color:red;
+            }
+            .other h3{
+                color:blue;
+            }
+            .footer{
+                height:60px;
+                width:auto;
+                background-color: rgba(255, 252, 252,.2);
+            }
+            
+
+            
+        </style>
+    </head>
+    <body>
+        
+        <header class="header">
+            <div class="left">
+                <img src="https://cdn.pixabay.com/photo/2019/01/20/21/21/weightlifter-3944725_960_720.png"/>
+                <div>My Gym Fitness</div>
+           </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                 </ul>
+    
+            </div>
+          <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+          </div>
+
+        </header>
+        <div class="container">
+            <h3>Join the best gym for body buildung</h3>
+            <h3>Registration Form</h3>
+            <form action="#">
+               
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                Gender  
+                   Male <input type="radio" name="g">
+                   Female<input type="radio" name="g">
+                   Other<input type="radio" name="g">
+
+                <div class="form-group">
+                    <input type="text" placeholder=" Enter Your Father's Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="Enter Your Number">
+                </div>
+                <div class="form-group">
+                    <input type="date">
+                </div>
+                <div class="form-group">
+                    <input type="time">
+                </div>
+
+               
+                Address : <textarea rows="5" cols="55" placeholder="Address">
+
+                </textarea>
+               <br>
+                <br>
+                <button class="btn">Submit</button>
+            </form>
+            
+        </div>
+       
+        </div>
+        <div class="other">
+            <h2>Please folow these instruction</h2>
+            <h3>Use this list of guidelines commonly used in fitness facilities:</h3>
+            <ul class="about">
+                <li>Do not bring your gym bag or other personal belongings onto the fitness floor.</li>
+                <li>Be courteous when using the water fountain. If there is a line, please do not fill up your water bottle.</li>
+                <li>Ask if you may “work in,” and always allow others the same courtesy; afterward, return the seat and weight to the last user’s setup.</li>
+                <li>Refrain from yelling, using profanity, banging weights and making loud sounds.</li>
+                <li>Do not sit on machines between sets.</li>
+                <li>Re-rack weights and return all other equipment and accessories to their proper locations.</li>
+
+            </ul>
+
+        </div>
+        <footer class="footer">
+            <table>
+             
+                <tr>  <img src="https://static.vecteezy.com/system/resources/previews/000/568/450/original/home-icon-vector.jpg"
+                    height="30px"
+                    width="30px"/>
+                Varanasi India</tr>
+                <tr class="c">
+                   <td> &copy;2022</td>
+                </tr>
+
+            </table>
+           
+        </footer>
+        
+        
+       
+    </body>
+</html>
